@@ -54,7 +54,7 @@ namespace SSP_Game
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-                Computer.Bones();
+            Computer.Bones();
             computerBox.Text = Computer.status;
             do
             {
