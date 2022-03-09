@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SSP_Game
 {
-    public class SSP_Game
+    public class _SSP_Game
     {
         public string[] Game = new string[] { "Stone", "Scissors", "Paper" };      
         public string status = null;
@@ -18,7 +18,7 @@ namespace SSP_Game
             this.status = Game[rnd.Next(0, 3)];
         }
 
-        static public int Fight(SSP_Game one, SSP_Game two)
+        static public int Fight(_SSP_Game one, _SSP_Game two)
         {
             int key = 3;
             if (one.status == "Stone" && two.status == "Stone")

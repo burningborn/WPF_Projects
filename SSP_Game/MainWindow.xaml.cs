@@ -20,8 +20,8 @@ namespace SSP_Game
     /// </summary>
     public partial class MainWindow : Window
     {
-        private SSP_Game You = new SSP_Game();
-        private SSP_Game Computer = new SSP_Game();
+        private _SSP_Game You = new _SSP_Game();
+        private _SSP_Game Computer = new _SSP_Game();
         Random rnd = new Random();
         public MainWindow()
         {
@@ -34,9 +34,9 @@ namespace SSP_Game
             computerBox.Text = "";
             outText.Text = "";
         }
-        public void resultFunc(SSP_Game one, SSP_Game two)
+        public void resultFunc(_SSP_Game one, _SSP_Game two)
         {
-            int key = SSP_Game.Fight(one, two);
+            int key = _SSP_Game.Fight(one, two);
             switch (key)
             {
                 case 1:

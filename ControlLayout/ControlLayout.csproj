@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{31146CEF-70E5-4BCA-B90C-CDF8C149C70E}</ProjectGuid>
+    <ProjectGuid>{4C158322-BE55-40D4-82B1-FABD0B5484D7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>SSP_Game</RootNamespace>
-    <AssemblyName>SSP_Game</AssemblyName>
+    <RootNamespace>ControlLayout</RootNamespace>
+    <AssemblyName>ControlLayout</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -55,7 +55,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="_SSP_Game.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
